@@ -1,6 +1,6 @@
 // Edit your content here. Every text has an English (en) and Portuguese (pt) version.
 const OWNER = "João Pires";
-const EMAIL = "hello@example.com";
+const EMAIL = "joaohugopires28@gmail.com";
 const UI = {
   about: { en: "About", pt: "Sobre" }, works: { en: "works", pt: "trabalhos" }, work: { en: "Work", pt: "Trabalho" },
   hello: { en: "Hello", pt: "Olá" }, contact: { en: "Contact", pt: "Contacto" },
