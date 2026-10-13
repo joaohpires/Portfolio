@@ -49,7 +49,14 @@ const AREAS = [
   },
   {
     slug: "other", name: { en: "Other", pt: "Outros" }, intro: { en: "Side projects, experiments and collaborations.", pt: "Projetos paralelos, experiências e colaborações." }, items: [
-      { title: "1", year: "2025", text: { en: "Self-published zine mixing photos and short texts.", pt: "Zine autopublicada que mistura fotos e textos curtos." } },
+      { title: "Luv´s Office", year: "2026", image:"images/3D/luv.png", text: { en: "Recreation of Luv´s office from Blade Runner 2049.", pt: "Recriação em 3D do escritório da Luv de Blade Runner 2049." } },
+      { title: "Brutalist Room", year: "2026", image:"images/3D/salabrutalista.png", text: { en: "University 3D project of a room.", pt: "Projeto 3D universitario de uma sala." } },
+      { title: "Chair", year: "2026", image:"images/3D/chair.png", text: { en: "University 3D project of a room.", pt: "Projeto 3D universitario de uma sala." } },
+      { title: "Brutalist Corridor", year: "2026", image:"images/3D/brutalistcorridor.png", text: { en: "Visual exploration of brutalist design.", pt: "Exploração visual em 3D de um design brutalista." } },
+      { title: "NES 3D Model", year: "2025", image:"images/3D/NES.png", text: { en: "3D Nintendo Entertainment System model made by me.", pt: "Modelo 3D Nintendo Entertainment System feito por mim." } },
+      { title: "SNES 3D Model", year: "2025", image:"images/3D/SNES2.png", text: { en: "3D Super Nintendo Entertainment System model made by me.", pt: "Modelo 3D Super Nintendo Entertainment System feito por mim." } },
+      { title: "Backrooms Test", year: "2025", image:"images/3D/br.png", text: { en: "Visual exploration of a Backrooms 3D enviroment.", pt: "Exploração visual em 3D das Backrooms." } },
+      { title: "Render Livro", year: "2024", image:"images/3D/livrorender.png", text: { en: "3D render of a book made for PAP.", pt: "Render 3D de um livro para a PAP." } },
       ]
   }
 ];
