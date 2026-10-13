@@ -30,7 +30,7 @@ function render() {
     document.title = `${t(a.name)} — ${OWNER}`;
     $("#work").innerHTML = `<section class="page-head reveal"><p class="label red">${t(UI.work)} / ${t(a.name)}</p>
       <h1>${t(a.name)}<span class="red">.</span></h1><p class="intro muted">${t(a.intro)}</p></section>
-      <div class="grid">${a.items.map(it => `<${it.link ? `a href="${it.link}" target="_blank" rel="noopener"` : "article"} class="item reveal" ${(it.gallery||(!it.link&&it.image))?`data-gallery='${JSON.stringify(it.gallery||[it.image])}'`:""}>
+      <div class="grid">${a.items.map(it => `<${it.link ? `a href="${it.link}" target="_blank" rel="noopener"` : "article"} class="item reveal" ${(it.gallery || (!it.link && it.image)) ? `data-gallery='${JSON.stringify(it.gallery || [it.image])}'` : ""}>
         ${it.image ? `<div class="thumb"><img src="${it.image}" alt="${it.title}" loading="lazy" class="${it.logo ? "logo" : ""}" ></div>` : `<div class="thumb text">${it.title}</div>`}
         <div class="item-row"><h2>${it.title}</h2><span class="label muted">${it.year}</span></div>
         <p class="muted">${t(it.text)}</p></${it.link ? "a" : "article"}>`).join("")}</div>`;

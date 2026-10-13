@@ -9,7 +9,7 @@ const UI = {
     en: `I'm ${OWNER}, a multidisciplinary creative working across design, writing and photography. I care about clear ideas, strong contrast and work that doesn't shout more than it needs to.`,
     pt: `Sou o ${OWNER}, um criativo multidisciplinar que trabalha em design, escrita e fotografia. Valorizo ideias claras, contraste forte e trabalho que não grita mais do que precisa.`
   },
-  available: { en: "Available for freelance projects, commissions and collaborations.", pt: "Disponível para projetos freelance, encomendas e colaborações." }
+  available: { en: "", pt: "" }
 };
 const AREAS = [
   {
